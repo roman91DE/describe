@@ -1,0 +1,54 @@
+🔧 Building Go binary...
+
+📊 Benchmarking dataset: test_data/sample1.csv
+Go describe:
+  Min   : 0.0051 s
+  Max   : 0.0895 s
+  Mean  : 0.0221 s
+  Median: 0.0053 s
+
+Pandas describe:
+  Min   : 0.3105 s
+  Max   : 0.3246 s
+  Mean  : 0.3156 s
+  Median: 0.3141 s
+
+📊 Benchmarking dataset: test_data/default-passwords.csv
+Go describe:
+  Min   : 0.0039 s
+  Max   : 0.0045 s
+  Mean  : 0.0042 s
+  Median: 0.0041 s
+
+Pandas describe:
+  Min   : 0.3053 s
+  Max   : 0.3111 s
+  Mean  : 0.3084 s
+  Median: 0.3083 s
+
+📊 Benchmarking dataset: test_data/iris.csv
+Go describe:
+  Min   : 0.0038 s
+  Max   : 0.0043 s
+  Mean  : 0.0039 s
+  Median: 0.0038 s
+
+Pandas describe:
+  Min   : 0.3044 s
+  Max   : 0.3058 s
+  Mean  : 0.3051 s
+  Median: 0.3050 s
+
+📊 Benchmarking dataset: test_data/titanic.csv
+Go describe:
+  Min   : 0.0038 s
+  Max   : 0.0044 s
+  Mean  : 0.0039 s
+  Median: 0.0038 s
+
+Pandas describe:
+  Min   : 0.3084 s
+  Max   : 0.3096 s
+  Mean  : 0.3087 s
+  Median: 0.3085 s
+
