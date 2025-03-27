@@ -281,7 +281,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	catCols, numcols := numericConverter(data, config)
+	catCols, numCols := numericConverter(data, config)
 
 	var (
 		catSummaries []categoricalSummary
@@ -304,8 +304,8 @@ func main() {
 	}
 
 	// Numeric
-	numWg.Add(len(numcols))
-	for colName, colVals := range numcols {
+	numWg.Add(len(numCols))
+	for colName, colVals := range numCols {
 		go func(name string, vals []float64) {
 			defer numWg.Done()
 			numCh <- processNumericCol(name, vals)
